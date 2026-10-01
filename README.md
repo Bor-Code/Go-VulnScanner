@@ -1,4 +1,4 @@
-# 🕸️ Go-VulnScanner | Eşzamanlı Web Zafiyet Tarayıcısı
+# Go-VulnScanner | Eşzamanlı Web Zafiyet Tarayıcısı
 
 ![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=for-the-badge&logo=go)
 ![Concurrency](https://img.shields.io/badge/Architecture-Worker%20Pool-blue?style=for-the-badge)
@@ -44,7 +44,7 @@ Geleneksel Python veya Ruby tabanlı tarayıcılar (thread limitleri ve GIL nede
 
 ---
 
-## 🏗️ Mimari Tasarım
+## Mimari Tasarım
 
 Proje 3 ana modülden oluşmaktadır:
 1. **Crawler (Örümcek):** Sitedeki tüm saldırı yüzeylerini (GET url'leri, POST formları) çıkarır ve tekrar döngüye girmemek için ziyaret edilenleri `sync.RWMutex` ile izole edilmiş bir hafızada (map) tutar.
